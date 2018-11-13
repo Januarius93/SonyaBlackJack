@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SonyaBlackJack suite" verbose="1">
+    <parameter name="url" value="https://yggdrasilgaming.com/games/sonya-blackjack/" />
+    <parameter name="browser" value="chrome" />
+    <parameter name="emulator" value="" />
+    <parameter name="device" value="" />
+
+</suite>
