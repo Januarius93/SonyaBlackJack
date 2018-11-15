@@ -2,21 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f49e2e24-2910-48a0-9544-091bf33d3402" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/listener/TestListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page/AbstractPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/browser/Browser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/browser/BrowserFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/browser/ChromeBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/browser/EdgeBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/browser/FirefoxBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/browser/OperaBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/device/DeviceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/suite/main_suite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assertions/MainPageAssertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/GamePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/MainBlackJackPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/MainBlackJackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/RandomPickerMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/listener/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listener/TestListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/AbstractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/AbstractPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/AbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/device/DeviceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/device/DeviceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/suite/main_suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/main_suite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/listener/TestListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/listener/TestListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/page/AbstractPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/page/AbstractPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/suite/main_suite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/AbstractTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/AbstractTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,36 +33,44 @@
     <session id="-1329732073">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1007" />
-          <entry key="xml" value="81" />
+          <entry key="java" value="7262" />
+          <entry key="properties" value="14" />
+          <entry key="txt" value="47" />
+          <entry key="xml" value="214" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1007" />
-          <entry key="XML" value="81" />
+          <entry key="JAVA" value="7262" />
+          <entry key="PLAIN_TEXT" value="47" />
+          <entry key="Properties" value="14" />
+          <entry key="XML" value="214" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
-          <entry key="java" value="11" />
-          <entry key="xml" value="1" />
+          <entry key="class" value="2" />
+          <entry key="java" value="26" />
+          <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="11" />
-          <entry key="XML" value="1" />
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="26" />
+          <entry key="XML" value="7" />
         </counts>
       </usages-collector>
     </session>
@@ -69,8 +80,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/page/AbstractPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="521">
+              <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/main_suite.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -78,35 +101,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/test/AbstractTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
-                <element signature="e#678#679#0" expanded="true" />
-                <element signature="e#738#739#0" expanded="true" />
-                <element signature="e#774#775#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-                <element signature="e#692#693#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/browser/Browser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/browser/ChromeBrowser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            <state relative-caret-position="323">
+              <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,46 +111,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/browser/FirefoxBrowser.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/browser/OperaBrowser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/browser/EdgeBrowser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/browser/BrowserFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="262">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -162,8 +122,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/device/DeviceFactory.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/browser/ChromeBrowser.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/browser/BrowserFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/listener/TestListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2057">
+              <caret line="125" selection-end-line="132" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test/MainBlackJackTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="31" column="32" selection-end-line="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/page/GamePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="952">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -187,16 +201,32 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/suite/main_suite.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/utils/browser/Browser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/device/DeviceFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/browser/ChromeBrowser.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/browser/FirefoxBrowser.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/browser/OperaBrowser.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/browser/BrowserFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/browser/EdgeBrowser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/MainBlackJackPage.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/suite/main_suite.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/assertions/AbstractAssertion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/RandomPickerMachine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/browser/ValuesHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/ValuesHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/assertions/MainPageAssertions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/assertions/GamePageAssertions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/MainBlackJackTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/conf.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/page/GamePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/page/AbstractPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/page/MainBlackJackPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/listener/TestListener.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/test/AbstractTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/device/DeviceFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/main_suite.xml" />
       </list>
     </option>
   </component>
@@ -207,11 +237,22 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="174" />
-    <option name="y" value="-42" />
-    <option name="width" value="2926" />
-    <option name="height" value="2080" />
+    <option name="x" value="552" />
+    <option name="y" value="-8" />
+    <option name="width" value="1918" />
+    <option name="height" value="998" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -219,6 +260,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -226,6 +269,11 @@
             <path>
               <item name="SonyaBlackJack" type="b2602c69:ProjectViewProjectNode" />
               <item name="SonyaBlackJack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SonyaBlackJack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SonyaBlackJack" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SonyaBlackJack" type="b2602c69:ProjectViewProjectNode" />
@@ -282,34 +330,42 @@
               <item name="SonyaBlackJack" type="b2602c69:ProjectViewProjectNode" />
               <item name="SonyaBlackJack" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="suite" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SonyaBlackJack" type="b2602c69:ProjectViewProjectNode" />
               <item name="SonyaBlackJack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SonyaBlackJack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SonyaBlackJack" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SonyaBlackJack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SonyaBlackJack" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542131743927" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542313565298" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\mstyczen\IdeaProjects\SonyaBlackJack\src\main\java\utils" />
       <recent name="C:\Users\mstyczen\IdeaProjects\SonyaBlackJack\src\main\resources" />
+      <recent name="C:\Users\mstyczen\IdeaProjects\SonyaBlackJack\src\main\java\utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -324,7 +380,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.C:/Users/mstyczen/IdeaProjects/SonyaBlackJack/src/main/resources/main_suite.xml">
+    <configuration name="C:/Users/mstyczen/IdeaProjects/SonyaBlackJack/src/main/resources/main_suite.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SonyaBlackJack" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/main_suite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/mstyczen/IdeaProjects/SonyaBlackJack/src/main/resources/suite/main_suite.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SonyaBlackJack" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/suite/main_suite.xml" />
@@ -335,9 +401,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainBlackJackTest.browserTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SonyaBlackJack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MainBlackJackTest" />
+      <option name="METHOD_NAME" value="browserTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainBlackJackTest.playSingleRoundTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SonyaBlackJack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/suite/main_suite.xml" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MainBlackJackTest" />
+      <option name="METHOD_NAME" value="playSingleRoundTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="0" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.C:/Users/mstyczen/IdeaProjects/SonyaBlackJack/src/main/resources/suite/main_suite.xml" />
+      <item itemvalue="TestNG.MainBlackJackTest.browserTest" />
+      <item itemvalue="TestNG.MainBlackJackTest.playSingleRoundTest" />
+      <item itemvalue="TestNG.C:/Users/mstyczen/IdeaProjects/SonyaBlackJack/src/main/resources/main_suite.xml" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/mstyczen/IdeaProjects/SonyaBlackJack/src/main/resources/main_suite.xml" />
         <item itemvalue="TestNG.C:/Users/mstyczen/IdeaProjects/SonyaBlackJack/src/main/resources/suite/main_suite.xml" />
+        <item itemvalue="TestNG.MainBlackJackTest.playSingleRoundTest" />
+        <item itemvalue="TestNG.MainBlackJackTest.browserTest" />
       </list>
     </recent_temporary>
   </component>
@@ -355,32 +468,68 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_mstyczen_IdeaProjects_SonyaBlackJack_src_main_resources_suite_main_suite_xml - 2018.11.13 at 18h 19m 22s.xml">
+    <history-entry file="C__Users_mstyczen_IdeaProjects_SonyaBlackJack_src_main_resources_suite_main_suite_xml - 2018.11.15 at 20h 29m 50s.xml">
       <configuration name="C:/Users/mstyczen/IdeaProjects/SonyaBlackJack/src/main/resources/suite/main_suite.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_mstyczen_IdeaProjects_SonyaBlackJack_src_main_resources_suite_main_suite_xml - 2018.11.15 at 20h 30m 30s.xml">
+      <configuration name="C:/Users/mstyczen/IdeaProjects/SonyaBlackJack/src/main/resources/suite/main_suite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_mstyczen_IdeaProjects_SonyaBlackJack_src_main_resources_suite_main_suite_xml - 2018.11.15 at 20h 32m 31s.xml">
+      <configuration name="C:/Users/mstyczen/IdeaProjects/SonyaBlackJack/src/main/resources/suite/main_suite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_mstyczen_IdeaProjects_SonyaBlackJack_src_main_resources_suite_main_suite_xml - 2018.11.15 at 20h 32m 53s.xml">
+      <configuration name="C:/Users/mstyczen/IdeaProjects/SonyaBlackJack/src/main/resources/suite/main_suite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_mstyczen_IdeaProjects_SonyaBlackJack_src_main_resources_suite_main_suite_xml - 2018.11.15 at 20h 33m 08s.xml">
+      <configuration name="C:/Users/mstyczen/IdeaProjects/SonyaBlackJack/src/main/resources/suite/main_suite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_mstyczen_IdeaProjects_SonyaBlackJack_src_main_resources_suite_main_suite_xml - 2018.11.15 at 20h 33m 36s.xml">
+      <configuration name="C:/Users/mstyczen/IdeaProjects/SonyaBlackJack/src/main/resources/suite/main_suite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_mstyczen_IdeaProjects_SonyaBlackJack_src_main_resources_suite_main_suite_xml - 2018.11.15 at 20h 34m 21s.xml">
+      <configuration name="C:/Users/mstyczen/IdeaProjects/SonyaBlackJack/src/main/resources/suite/main_suite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_mstyczen_IdeaProjects_SonyaBlackJack_src_main_resources_suite_main_suite_xml - 2018.11.15 at 20h 44m 17s.xml">
+      <configuration name="C:/Users/mstyczen/IdeaProjects/SonyaBlackJack/src/main/resources/suite/main_suite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_mstyczen_IdeaProjects_SonyaBlackJack_src_main_resources_suite_main_suite_xml - 2018.11.15 at 20h 48m 29s.xml">
+      <configuration name="C:/Users/mstyczen/IdeaProjects/SonyaBlackJack/src/main/resources/suite/main_suite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_mstyczen_IdeaProjects_SonyaBlackJack_src_main_resources_main_suite_xml - 2018.11.15 at 21h 21m 45s.xml">
+      <configuration name="C:/Users/mstyczen/IdeaProjects/SonyaBlackJack/src/main/resources/main_suite.xml" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19146666" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.345987" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4099783" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -388,48 +537,115 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.3296" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>webDriver.findElements(By.xpath(&quot;//div[@class=' title']&quot;)).get(5).getText()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>webDriver.findElements(By.xpath(&quot;//div[@class=' title']&quot;)).get(4).getText()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>webDriver.findElements(By.xpath(&quot;//div[@class=' title']&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>webDriver.findElement(By.xpath(&quot;//div[@class=' title']&quot;)).getText()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>webDriver.findElement(By.xpath(&quot;//div[@class=' title']&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>webDriver.findElement(By.xpath(&quot;//div[@class=' balanceContainer box']&quot;)).findElement(By.xpath(&quot;//div[@class=' text']&quot;)).getText()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>webDriver.findElement(By.xpath(&quot;//div[@class=' balanceContainer box']&quot;)).findElement(By.xpath(&quot;//div[@class=' title']&quot;)).getText()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>webDriver.findElement(By.xpath(&quot;//div[@class=' winContainer box']&quot;)).findElement(By.xpath(&quot;//div[@class=' title']&quot;)).getText()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>webDriver.findElement(By.xpath(&quot;//div[@class=' winContainer box']&quot;)).findElement(By.xpath(&quot;//div[@class=' title']&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>webDriver.switchTo().frame(0)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>webDriver.findElements(By.tagName(&quot;iframe&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>webDriver.findElement(By.tagName(&quot;iframe&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>webDriver.findElement(By.className(&quot;hamburger-box&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>webDriver.getPageSource()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>webDriver.findElement(By.className(&quot;iconContainer&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>webDriver.findElement(By.className(&quot;burgerMenuButton&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>webDriver.findElement(By.className(&quot;burgerMenuButton box&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>webDriver.findElement(By.className(&quot; burgerMenuButton box&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>webDriver.findElement(By.className(&quot;  icon&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/suite/main_suite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/listener/TestListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/page/AbstractPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/browser/BrowserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/browser/BrowserFactory.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-edge-driver/3.141.0/selenium-edge-driver-3.141.0.jar!/org/openqa/selenium/edge/EdgeDriver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -437,30 +653,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/device/DeviceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/browser/BrowserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/browser/EdgeBrowser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -468,19 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/browser/ChromeBrowser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -488,9 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -501,18 +681,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/AbstractTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1.jar!/org/testng/internal/Invoker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        <state relative-caret-position="104">
+          <caret line="64" column="485" selection-start-line="64" selection-start-column="485" selection-end-line="64" selection-end-column="485" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/assertions/AbstractAssertion.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/RandomPickerMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#389#390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/assertions/MainPageAssertions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="111" selection-start-line="9" selection-start-column="111" selection-end-line="9" selection-end-column="111" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/ValuesHelper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/assertions/GamePageAssertions.java" />
+    <entry file="file://$PROJECT_DIR$/target/classes/conf.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="105" selection-start-line="4" selection-start-column="105" selection-end-line="4" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/page/MainBlackJackPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="36" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/listener/TestListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2057">
+          <caret line="125" selection-end-line="132" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/MainBlackJackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="31" column="32" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/page/GamePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/page/AbstractPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/browser/BrowserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/browser/ChromeBrowser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/device/DeviceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/main_suite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/AbstractTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -593,5 +894,17 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="test -Dsurefire.suiteXmlFiles=C:\Users\mstyczen\IdeaProjects\SonyaBlackJack\src\main\resources\main_suite.xml" />
+    <option value="test -Dsurefire.suiteXmlFiles=src/main/resources/main_suite.xml" />
+    <option value="test -Dsurefire.suiteXmlFiles=src/main/java/resources/main_suite.xml" />
+    <option value="test" />
+    <option value="clean install test" />
+    <option value="clean install test -DsuiteXmlFile=main_suite.xml" />
+    <option value="clean test -Dsurefire.suiteXmlFiles=C:\Users\mstyczen\IdeaProjects\SonyaBlackJack\src\main\resources\suite" />
+    <option value="test -DsuiteXmlFile=main_suite.xml" />
+    <option value="clean test -DsuiteXmlFile=main_suite.xml" />
   </component>
 </project>

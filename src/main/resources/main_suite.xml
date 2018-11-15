@@ -5,4 +5,17 @@
     <parameter name="emulator" value="" />
     <parameter name="device" value="" />
 
+    <listeners>
+
+        <listener class-name="listener.TestListener"></listener>
+
+    </listeners>
+
+    <test name="FirstTest">
+        <classes>
+            <class name="test.MainBlackJackTest"/>
+        </classes>
+    </test>
+
+
 </suite>

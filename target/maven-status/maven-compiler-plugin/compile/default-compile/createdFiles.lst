@@ -1,0 +1,15 @@
+assertions\MainPageAssertions.class
+utils\device\DeviceFactory.class
+utils\browser\Browser.class
+utils\browser\ChromeBrowser.class
+test\MainBlackJackTest.class
+utils\browser\FirefoxBrowser.class
+utils\browser\OperaBrowser.class
+page\GamePage.class
+test\AbstractTest.class
+utils\browser\BrowserFactory.class
+utils\browser\EdgeBrowser.class
+page\MainBlackJackPage.class
+utils\RandomPickerMachine.class
+page\AbstractPage.class
+listener\TestListener.class
